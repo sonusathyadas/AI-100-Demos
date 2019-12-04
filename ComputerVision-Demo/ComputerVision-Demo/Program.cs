@@ -27,7 +27,7 @@ namespace ComputerVision_Demo
         static void Main(string[] args)
         {
             InitializeVisionService();
-            var imagePath = @"Your_image_path";
+            var imagePath = @"C:\Users\sonus\Desktop\TrainImages\microsoft.jpg";
             bool isContinuing = true;
             do
             {
