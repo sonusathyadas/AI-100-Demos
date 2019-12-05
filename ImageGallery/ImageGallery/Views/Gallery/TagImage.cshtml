@@ -1,0 +1,53 @@
+﻿@model ImageGallery.Models.AnalysisResultViewModel
+
+@{
+    ViewBag.Title = "TagImage";
+}
+
+<h2>Tag Images</h2>
+@if (ViewBag.Status!=null && ViewBag.Status.Success)
+{
+    <div class="alert alert-success">@ViewBag.Status.Message</div>
+}
+else if (ViewBag.Status != null && !ViewBag.Status.Success)
+{
+    <div class="alert alert-danger">@ViewBag.Status.Message</div>
+}
+
+@using (Html.BeginForm("TagImage", "Gallery", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.Label("Upload File", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="file" name="file" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Upload" class="btn btn-default" />
+            </div>
+        </div>
+
+    </div>
+}
+
+
+@if(Model != null)
+{
+    <div class="row">
+        <div class="col-md-4">
+            <img src="@Model.ImageLocalPath" class="img-rounded thumbnail" style="width:250px; height:250px" />
+            @*<h4>@ViewBag.FileStatus</h4>*@
+        </div>
+        <div class="col-md-8">
+            @Html.Partial("_ImageInsightsView", Model)
+        </div>
+    </div>
+
+}
+

@@ -1,0 +1,47 @@
+﻿@model ImageGallery.Models.AnalysisResultViewModel
+
+<h2>Image Analysis data</h2>
+@if (Model.Insights != null)
+{
+    using (Html.BeginForm("UpdateAnalysisData", "Gallery", FormMethod.Post))
+    {
+    <div>
+        @Html.HiddenFor(model => model.ImageLocalPath)
+        @Html.HiddenFor(model => model.Insights.ImageId)
+    </div>
+    <div class="form-group">
+        <label for="caption">Caption</label>
+        @Html.TextBoxFor(model => model.Insights.Caption, new { @class = "form-control" })
+    </div>
+        if (Model.Insights.Categories.Length > 0)
+        {
+        <div class="form-group">
+            <label for="categories">Categories</label>
+            @foreach (var item in Model.Insights.Categories)
+            {
+                <input type="checkbox" name="Insights.Categories" value="@item" /> @item
+            }
+        </div>
+        }
+
+        if (Model.Insights.Tags.Length > 0)
+        {
+        <div class="form-group">
+            <label for="tags">Tags</label>
+            @foreach (var item in Model.Insights.Tags)
+            {
+                <input type="checkbox" name="Insights.Tags" value="@item" /> @item
+            }
+        </div>
+        }
+
+        <div class="form-group">
+            <button class="btn btn-primary " name="btnSave" type="submit" value="Save">Save</button>
+        </div>
+
+    }
+}
+else
+{
+    <h3> Unable to analyze the image. Error in connecting cognitive service.</h3 >
+}

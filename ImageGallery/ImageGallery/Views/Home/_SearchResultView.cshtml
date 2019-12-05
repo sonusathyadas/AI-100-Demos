@@ -1,0 +1,41 @@
+﻿@model ImageGallery.Models.SearchModel
+
+<div class="row">
+    @if (Model != null)
+    {
+        if (Model.SearchResults == null || Model.SearchResults.Count == 0)
+        {
+        <h3>No results found/unable to fetch results</h3>
+        }
+        else
+        {
+            <h4>Search results for entities: 
+            @foreach (var entity in Model.DetectedEntities)
+            {
+                <span class="badge">@entity</span>
+            }
+            </h4>
+
+            foreach (var item in Model.SearchResults)
+            {
+            <div class="col-md-4 clearfix">
+                <div style="height:300px">
+                    <figure>
+                        <img src="@item.BlobUri" class="thumbnail" style="width:150px; height:150px" />
+                        <figcaption><h4>@item.Caption</h4></figcaption>
+                    </figure>
+                    <div> Tags : 
+                        @foreach (var tag in item.Tags.Intersect(Model.DetectedEntities))
+                        {
+                            <span class="badge">@tag</span>
+                        }
+                    </div>
+                    <div>Tagged By: @item.TaggedBy</div>                    
+                </div>
+
+            </div>
+            }
+        }
+    }
+
+</div>
