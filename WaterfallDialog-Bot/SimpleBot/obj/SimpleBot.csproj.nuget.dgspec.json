@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sonus\\Desktop\\AI-100-Demos\\SimpleBot\\SimpleBot\\SimpleBot.csproj": {}
+    "C:\\Users\\sonus\\Desktop\\AI-100-Demos\\AE\\WaterfallDialog-Bot\\SimpleBot\\SimpleBot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sonus\\Desktop\\AI-100-Demos\\SimpleBot\\SimpleBot\\SimpleBot.csproj": {
+    "C:\\Users\\sonus\\Desktop\\AI-100-Demos\\AE\\WaterfallDialog-Bot\\SimpleBot\\SimpleBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sonus\\Desktop\\AI-100-Demos\\SimpleBot\\SimpleBot\\SimpleBot.csproj",
+        "projectUniqueName": "C:\\Users\\sonus\\Desktop\\AI-100-Demos\\AE\\WaterfallDialog-Bot\\SimpleBot\\SimpleBot.csproj",
         "projectName": "SimpleBot",
-        "projectPath": "C:\\Users\\sonus\\Desktop\\AI-100-Demos\\SimpleBot\\SimpleBot\\SimpleBot.csproj",
+        "projectPath": "C:\\Users\\sonus\\Desktop\\AI-100-Demos\\AE\\WaterfallDialog-Bot\\SimpleBot\\SimpleBot.csproj",
         "packagesPath": "C:\\Users\\sonus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sonus\\Desktop\\AI-100-Demos\\SimpleBot\\SimpleBot\\obj\\",
+        "outputPath": "C:\\Users\\sonus\\Desktop\\AI-100-Demos\\AE\\WaterfallDialog-Bot\\SimpleBot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
