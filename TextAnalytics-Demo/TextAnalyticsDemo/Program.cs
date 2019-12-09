@@ -29,7 +29,7 @@ namespace TextAnalyticsDemo
             var sentimentResultText= JsonConvert.SerializeObject(sentimentResult, Formatting.Indented);
             Console.WriteLine(sentimentResultText);
 
-            var langResult = client.DetectLanguage(statement);
+            var langResult = client.DetectLanguage(statement,"US");
             var langResultText = JsonConvert.SerializeObject(langResult, Formatting.Indented);
             Console.WriteLine(langResultText);
 

@@ -24,3 +24,16 @@ C:\Users\sonus\Desktop\AI-100-Demos\AE\TextAnalyticsDemo\TextAnalyticsDemo\obj\D
 C:\Users\sonus\Desktop\AI-100-Demos\AE\TextAnalyticsDemo\TextAnalyticsDemo\obj\Debug\TextAnalyticsDemo.csproj.CopyComplete
 C:\Users\sonus\Desktop\AI-100-Demos\AE\TextAnalyticsDemo\TextAnalyticsDemo\obj\Debug\TextAnalyticsDemo.exe
 C:\Users\sonus\Desktop\AI-100-Demos\AE\TextAnalyticsDemo\TextAnalyticsDemo\obj\Debug\TextAnalyticsDemo.pdb
+C:\Users\sonus\Desktop\AI-100-Demos\AE\TextAnalytics-Demo\TextAnalyticsDemo\bin\Debug\TextAnalyticsDemo.exe.config
+C:\Users\sonus\Desktop\AI-100-Demos\AE\TextAnalytics-Demo\TextAnalyticsDemo\bin\Debug\TextAnalyticsDemo.exe
+C:\Users\sonus\Desktop\AI-100-Demos\AE\TextAnalytics-Demo\TextAnalyticsDemo\bin\Debug\TextAnalyticsDemo.pdb
+C:\Users\sonus\Desktop\AI-100-Demos\AE\TextAnalytics-Demo\TextAnalyticsDemo\bin\Debug\Microsoft.Azure.CognitiveServices.Language.TextAnalytics.dll
+C:\Users\sonus\Desktop\AI-100-Demos\AE\TextAnalytics-Demo\TextAnalyticsDemo\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\sonus\Desktop\AI-100-Demos\AE\TextAnalytics-Demo\TextAnalyticsDemo\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+C:\Users\sonus\Desktop\AI-100-Demos\AE\TextAnalytics-Demo\TextAnalyticsDemo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sonus\Desktop\AI-100-Demos\AE\TextAnalytics-Demo\TextAnalyticsDemo\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.xml
+C:\Users\sonus\Desktop\AI-100-Demos\AE\TextAnalytics-Demo\TextAnalyticsDemo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sonus\Desktop\AI-100-Demos\AE\TextAnalytics-Demo\TextAnalyticsDemo\obj\Debug\TextAnalyticsDemo.csprojAssemblyReference.cache
+C:\Users\sonus\Desktop\AI-100-Demos\AE\TextAnalytics-Demo\TextAnalyticsDemo\obj\Debug\TextAnalyticsDemo.csproj.CopyComplete
+C:\Users\sonus\Desktop\AI-100-Demos\AE\TextAnalytics-Demo\TextAnalyticsDemo\obj\Debug\TextAnalyticsDemo.exe
+C:\Users\sonus\Desktop\AI-100-Demos\AE\TextAnalytics-Demo\TextAnalyticsDemo\obj\Debug\TextAnalyticsDemo.pdb

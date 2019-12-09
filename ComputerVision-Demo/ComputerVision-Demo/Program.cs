@@ -27,7 +27,7 @@ namespace ComputerVision_Demo
         static void Main(string[] args)
         {
             InitializeVisionService();
-            var imagePath = @"C:\Users\sonus\Desktop\TrainImages\microsoft.jpg";
+            
             bool isContinuing = true;
             do
             {
@@ -41,6 +41,8 @@ namespace ComputerVision_Demo
 
                 Console.WriteLine("Your choice:");
                 int ch = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Enter the image path:");
+                var imagePath = Console.ReadLine();
                 dynamic result=null;
                 switch (ch)
                 {

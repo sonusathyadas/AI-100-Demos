@@ -1,0 +1,26 @@
+{
+    "name": "MyPicBot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "ecee138a-6aca-4fcf-8e01-49701740e469",
+            "appPassword": "UNG1v]Z.nR=mx.OAzqkZ3rbJH0XP9:b:",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "82048f50-16b5-11ea-b948-4dd71890d8a3",
+            "name": "http://localhost:3978/api/messages"
+        },
+        {
+            "type": "endpoint",
+            "appId": "ecee138a-6aca-4fcf-8e01-49701740e469",
+            "appPassword": "UNG1v]Z.nR=mx.OAzqkZ3rbJH0XP9:b:",
+            "endpoint": "https://picturebotsonu2019.azurewebsites.net/api/messages",
+            "id": "116",
+            "name": "BotServiceProd"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\Users\\sonus\\Desktop\\PictureBot\\MyPicBot.bot"
+}

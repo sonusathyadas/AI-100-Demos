@@ -22,7 +22,6 @@ C:\Users\sonus\Desktop\AI-100-Demos\AE\ComputerVision-Demo\ComputerVision-Demo\b
 C:\Users\sonus\Desktop\AI-100-Demos\AE\ComputerVision-Demo\ComputerVision-Demo\bin\Debug\Microsoft.Rest.ClientRuntime.xml
 C:\Users\sonus\Desktop\AI-100-Demos\AE\ComputerVision-Demo\ComputerVision-Demo\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.xml
 C:\Users\sonus\Desktop\AI-100-Demos\AE\ComputerVision-Demo\ComputerVision-Demo\bin\Debug\Newtonsoft.Json.xml
-C:\Users\sonus\Desktop\AI-100-Demos\AE\ComputerVision-Demo\ComputerVision-Demo\obj\Debug\ComputerVision-Demo.csprojAssemblyReference.cache
 C:\Users\sonus\Desktop\AI-100-Demos\AE\ComputerVision-Demo\ComputerVision-Demo\obj\Debug\ComputerVision-Demo.csproj.CopyComplete
 C:\Users\sonus\Desktop\AI-100-Demos\AE\ComputerVision-Demo\ComputerVision-Demo\obj\Debug\ComputerVision-Demo.exe
 C:\Users\sonus\Desktop\AI-100-Demos\AE\ComputerVision-Demo\ComputerVision-Demo\obj\Debug\ComputerVision-Demo.pdb

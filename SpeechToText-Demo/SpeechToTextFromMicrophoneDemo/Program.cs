@@ -5,6 +5,7 @@ using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Azure.CognitiveServices.Language.TextAnalytics;
 
 namespace SpeechToTextFromMicrophoneDemo
 {
@@ -21,6 +22,9 @@ namespace SpeechToTextFromMicrophoneDemo
             var speechKey = ConfigurationManager.AppSettings["Speech:Key"];
             var speechLocation= ConfigurationManager.AppSettings["Speech:Location"];
             var config = SpeechConfig.FromSubscription(speechKey, speechLocation);
+            TextAnalyticsClient client;
+            var textAnalyticsKey = ConfigurationManager.AppSettings["TextAnalytics:Key"];
+            var textAnalyticsEndpoint = ConfigurationManager.AppSettings["TextAnalytics:Endpoint"];
 
             using (var recognizer = new SpeechRecognizer(config))
             {
@@ -32,12 +36,15 @@ namespace SpeechToTextFromMicrophoneDemo
 
                     if (result.Reason == ResultReason.RecognizedSpeech)
                     {
+                        var sentimentResult = client.Sentiment(statement, "en");
                         Console.WriteLine(result.Text);
+                        
+
                     }
-                    else if (result.Reason == ResultReason.NoMatch)
-                    {
-                        Console.WriteLine($"NOMATCH: Speech could not be recognized.");
-                    }
+                    //else if (result.Reason == ResultReason.NoMatch)
+                    //{
+                    //    Console.WriteLine($"NOMATCH: Speech could not be recognized.");
+                    //}
                     else if (result.Reason == ResultReason.Canceled)
                     {
                         var cancellation = CancellationDetails.FromResult(result);
